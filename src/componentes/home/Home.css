@@ -1,0 +1,32 @@
+header{
+    position: relative;
+    background: red;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+header h1{
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+}
+section{
+    position: relative;
+}
+section .container{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+@media (max-width: 768px){
+    section .container{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 480px){  
+    section .container{
+        
+    }
+}
